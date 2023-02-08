@@ -1,0 +1,47 @@
+#Initialise
+Name = ""
+pBand = ""
+days = 0
+hire = 0
+discount = 0
+
+
+#Print price band [pBand]
+print("Price Band,")
+print("A = £20")
+print("B = £30")
+print("C = £40")
+
+print("--------")
+
+#ask for name + pBand
+Name = str(input("Enter your name, "))
+pBand = str(input("Enter Priceband, "))
+
+while pBand != "A" and pBand != "B" and pBand != "C":
+    print("Invalid Price Band")
+    pBand = str(input("Enter Priceband, "))
+
+#Cost / day
+if pBand "A"
+    cost = 20
+else pBand "B"
+    cost = 30
+else pBand "C"
+    cost = 40
+end if
+
+#get valid no days
+days = str(input("Enter days, "))
+while days >=14 then
+print("Error")
+days = str(input("Enter days, "))
+
+#calc discount
+hire = (cost-discount)*days
+
+#display details
+print ("Customer Name: ", Name)
+print ("Price Band: ", pBand)
+print ("Days hired: ", days)
+print ("Hire Cost: ", hire)
